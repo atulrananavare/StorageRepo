@@ -14,8 +14,9 @@ public class StorageServiceApplication {
             = Logger.getLogger(StorageServiceApplication.class.getName());
 
 
+    //This is change in the application
     public static void main(String[] args) {
-       // SpringApplication.run(StorageServiceApplication.class, args);
+        SpringApplication.run(StorageServiceApplication.class, args);
 
 
         Demo d = new Demo();
